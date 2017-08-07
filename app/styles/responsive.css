@@ -1,0 +1,410 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 1366px)
+{
+  .collaborate
+  {
+    height: auto;
+  }
+
+  .bg-collaborate
+  {
+    height: auto;
+  }
+
+  .collaborate-text
+  {
+    margin-top: 132px;
+    float: right;
+    color: #fff;
+    height: 668px;
+    padding: 8px 150px 0 80px;
+  }
+
+  .collaborate-text h1
+  {
+    font-size: 47px;
+    font-weight: 300;
+  }
+
+  .border-line 
+  {
+    border: 0;
+    right: 0;
+  } 
+
+  .experience
+  {
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  section#third
+  {
+    padding-bottom: 20px;
+  }
+
+  .experience-text 
+  {
+    height: auto;
+    margin-left: 5px;
+  }
+
+  .portfolio-content 
+  {
+    padding: 10px 100px 10px 100px;
+  }
+
+  .single-item>img 
+  {
+    height: 361.204px;
+  }
+
+  .contact-info 
+  {
+    height: 75vh;
+  }   
+
+  .bg-contact-image 
+  {
+    height: 75vh;
+  }
+  .contact-text
+  {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 768px)
+{
+  .profile{
+    display: none;
+  }
+
+  .bg-profile{
+    position: relative;
+  }
+
+  .about-text{
+    border: 0;
+    background: none;
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    height: auto;
+  }
+
+  .row{
+    margin: 0;
+  }
+
+  .skills{
+    padding-left: 50px;
+    margin-top: 45px;
+  }
+
+  .skills-progress{
+    padding-top: 10px;
+  }
+
+  section#second{
+    min-height: 100vh;
+    height: auto;
+    padding-top: 10px;
+  }
+
+  .about-me{
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .skills-progress .col-sm-8{
+    padding-left: 0;
+  }
+
+  .border-line{
+    border: 0;
+    position: relative;
+    right: 0;
+    z-index: 0;
+  }
+
+  .portfolio{
+    padding: 0;
+    padding-top: 10px;
+  }
+
+  .experience-text{
+    margin: 0;
+    padding: 50px;
+    height: auto;
+  }
+
+  section#third{
+    min-height: 100vh;
+    height: auto;
+    padding-top: 10px;
+  }
+
+  .collaborate {
+    min-height: 100vh;
+  }
+
+  .collaborate-text{
+    margin: 0;
+    padding: 0 50px 0 50px;
+    width: auto;
+    z-index: 100;
+  }
+
+  .collaborate-text h1{
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  .collaborate-text p{
+    padding-top: 40px;
+    font-size: 18px;
+    font-weight: 200;
+  }
+
+  .bg-collaborate{
+    display: none;
+  }
+
+  section#five{
+    height: auto;
+  }
+
+  .border-line-left{
+    border: 0;
+    position: static;
+    right: 0;
+    z-index: 0;
+  }
+
+  .contact-text{
+      float: none;
+      width: auto;
+      height: auto;
+  }
+
+  .contact-info-text {
+      padding: 100px 100px 100px 100px;
+  }
+
+  .connect{
+      padding-top: 10px;
+      padding-left: 50px;
+  }
+  .border-line-left {
+    padding: 0;
+  }
+  .single-portfolio{
+    width: 100%;  
+  }
+
+  .experience {
+    height: auto;
+    position: relative;
+  }
+
+  .portfolio-content{
+    padding: 0;
+  }
+  #portfolio {
+    position: relative;
+    padding: 0;
+  }
+
+  .portfolio-menu {
+    padding: 0;
+  }  
+
+  .portfolio-container {
+    margin-top: 0;
+  }
+
+  .contact-text .form-area {
+    padding: 0;
+  }
+
+  .contact .form {
+    padding: 0;
+  }
+
+  .form-area h1{
+    font-size: 35px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .contact{
+    padding: 0;
+  }
+
+  .contact .form {
+    margin-bottom: 10px;
+  }
+
+  .contact_btn{
+    width: 100%;
+  }
+}
+
+@media(max-width: 500px)
+{
+  .experience-grids{
+    display: block;
+  }
+  .experience-right,
+  .experience-left{
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) 
+{
+  .about-text{
+    height: auto;
+  }
+
+  .about-text h2{
+    font-size: 20px;
+  }
+
+  .about-text h1{
+    font-size: 25px;
+  }
+
+  .collaborate {
+    min-height: 100vh;
+  }
+
+  .collaborate-text{
+    margin: 0;
+    padding-left: 10px;
+  }
+
+  .collaborate-text h1{
+    font-size: 25px;
+  }
+
+  .experience-left{
+    width: 190px;
+  }
+
+  .experience-right{
+    width: 190px;
+  }
+
+  .my-experience{
+    padding: 0;
+    text-align: center;
+  }
+
+  .my-experience .border{
+      display: none;
+  }
+
+  .contact .form{
+    padding: 0;
+  }
+
+  .contact .form h1{
+    font-size: 25px;
+    margin-left: 15px;
+  }
+
+  .send-message-form{
+    padding: 0;
+  }
+
+  .contact_btn{
+    width: 100%;
+  }
+
+  .connect li a{
+    padding: 10px 20px 10px 10px;
+  }
+
+  .contact-info-text{
+    padding: 50px 10px 10px 10px;
+  }
+
+  .contact-info-text .email{
+    margin-top: 20px;
+  }
+
+  .contact-info-text .phone{
+    margin-top: 20px;
+  }
+
+  .single-portfolio{
+    width: 100%;  
+  }
+}
+
+@media (min-width: 768px) 
+{
+  .navbar-custom {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none; 
+  }
+
+  .navbar-custom .navbar-brand {
+    padding: 0;
+    height: 79px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; 
+  }
+  
+  .navbar-custom .navbar-brand img {
+    height: 79px;
+    width: 79px; 
+  }
+  
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px; 
+  }
+  
+  .navbar-custom .nav li a {
+    margin: 0 10px 0 0; 
+  }
+  
+  .navbar-custom.affix .navbar-brand {
+    height: 50px; 
+  }
+      
+  .navbar-custom.affix .navbar-brand img {
+    height: 50px;
+    width: 50px; 
+  }
+  
+  .navbar-custom.affix .navbar-collapse {
+    padding-top: 5px;
+    padding-bottom: 0; 
+  } 
+}
+
+@media (min-width: 768px) 
+{
+  .navbar-custom.affix {
+    background-color: rgba(39, 39, 39, 0.5);
+    padding: 10px 0; 
+  }
+  
+  .navbar-custom.affix .navbar-brand {
+      font-size: 1.5em; 
+  } 
+}
+
+
+
